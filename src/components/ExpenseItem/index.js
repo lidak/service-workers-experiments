@@ -13,8 +13,8 @@ export default class ExpenseItem extends Component {
 }
 
 ExpenseItem.propTypes = {
-  title: PropTypes.string.isRequired(),
-  amount: PropTypes.number.isRequired(),
+  title: PropTypes.string.isRequired,
+  amount: PropTypes.number.isRequired,
   autoCharge: PropTypes.bool,
   billingDay: PropTypes.oneOf([...Array(30).keys()])
 }

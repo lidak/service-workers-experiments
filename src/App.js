@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import ExpensesEditor from './components/ExpensesEditor';
 import './App.css';
 
