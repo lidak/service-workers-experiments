@@ -1,3 +1,5 @@
 {
-    "*.js": "javascriptreact"
+    "*.js": "javascriptreact",
+    "editor.tabSize": 2,
+    "editor.formatOnType": true
 }
